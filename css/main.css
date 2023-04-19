@@ -818,6 +818,11 @@ video {
   padding-bottom: 4em;
 }
 
+.py-\[6em\] {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1005,6 +1010,11 @@ video {
   .lg\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .lg\:py-\[6em\] {
+    padding-top: 6em;
+    padding-bottom: 6em;
   }
 
   .lg\:pb-0 {

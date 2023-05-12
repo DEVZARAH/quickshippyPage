@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./css/index.css">
     <title>Quickshippy Landing Page</title>
   </head>
 
@@ -32,7 +33,7 @@
               >Pricing</a
             >
             <div class="relative inline-block">
-              <div class="inline-flex w-full">
+              <div class="inline-flex w-full items-center dropdown">
                 <a
                   href=""
                   class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
@@ -51,11 +52,13 @@
                   />
                 </svg>
               </div>
-              <div>
-                <div>
-                  <a href="#">Use Cases</a>
-                  <a href="#">Documentation</a>
-                  <a href=""></a>
+              <!-- drop down option -->
+              <div class="bg-slate-200 absolute z-50  dropcontent">
+                <div class="flex flex-col gap-4">
+                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Use Cases</a>
+                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Documentation</a>
+                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Testing </a>
+                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Flight</a>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@
 
   <body>
     <!-- Navigation bar -->
-    <nav class="py-4 shadow-md">
+    <nav class="relative py-4 mx-auto shadow-md">
       <div class="flex items-center justify-between w-11/12 mx-auto">
         <!-- Logo enters here and 3 navLinks-->
         <div class="flex items-center gap-12">
@@ -20,6 +20,7 @@
               alt=""
             />
           </div>
+          <!-- Menu Items -->
           <div class="hidden lg:flex gap-6">
             <a
               href=""
@@ -31,34 +32,12 @@
               class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
               >Pricing</a
             >
-            <div class="relative inline-block">
-              <div class="inline-flex w-full">
-                <a
-                  href=""
-                  class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
-                  >Resources</a
-                >
-                <svg
-                  class="-mr-1 h-5 w-5 text-shippy-black"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </div>
-              <div>
-                <div>
-                  <a href="#">Use Cases</a>
-                  <a href="#">Documentation</a>
-                  <a href=""></a>
-                </div>
-              </div>
-            </div>
+
+            <a
+              href=""
+              class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
+              >Resources</a
+            >
           </div>
         </div>
 
@@ -105,9 +84,10 @@
         </div>
 
         <!-- Mobile NavBar -->
+        <!-- Hamburger -->
         <div class="block lg:hidden">
           <button
-            id="nav"
+            id="menu-btn"
             class="flex items-center px-3 py-2 border-2 rounded text-blue-700 border-shippy-blue hover:text-blue-700 hover:border-blue-700"
           >
             <svg
@@ -119,6 +99,19 @@
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
+        </div>
+        
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
         </div>
       </div>
     </nav>
@@ -443,7 +436,11 @@
             engineering team.
           </p>
           <div>
-            <img src="assets/google-play-store-icon-png-14.jpg" alt="" width="30%" />
+            <img
+              src="assets/google-play-store-icon-png-14.jpg"
+              alt=""
+              width="30%"
+            />
           </div>
         </div>
 
@@ -483,32 +480,32 @@
         </div>
       </div>
     </div>
-    <footer class="bg-shippy-blue-two text-shippy-blue">
+    <footer class="bg-shippy-black text-shippy-gray-four">
       <nav class="w-10/12 mx-auto py-4">
         <div class="flex flex-col items-center justify-between lg:flex-row">
           <div>
             <img
               src="https://res.cloudinary.com/dp8g2jwak/image/upload/v1675610418/quickshippy/logo-white_xo3fck.svg"
-              alt="" width="24px"
+              alt=""
+              width="24px"
             />
           </div>
           <div
             class="flex flex-col justify-between items-center lg:flex-row gap-4"
           >
-            <a href="" class="">Product</a>
+            <a href="" class="hover:text-shippy-black">Product</a>
             <a href="">Documentation</a>
             <a href="">Pricing</a>
             <a href="">Services</a>
           </div>
           <div class="flex gap-4">
-            <img src="assets/medium.svg" alt="" width="24px"/>
-            <img src="assets/square-twitter (1).svg" alt="" width="24px"/>
-            <img src="assets/linkedin.svg" alt="" width="24px">
-          
-        
+            <img src="assets/medium.svg" alt="" width="24px" />
+            <img src="assets/square-twitter (1).svg" alt="" width="24px" />
+            <img src="assets/linkedin.svg" alt="" width="24px" />
           </div>
         </div>
       </nav>
     </footer>
+    <script src="js/index.js"></script>
   </body>
 </html>

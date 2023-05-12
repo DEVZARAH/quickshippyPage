@@ -1,0 +1,11 @@
+.dropcontent{
+    display: none;
+}
+
+.dropdown:hover + .dropcontent{
+    display: block;
+}
+
+.dropcontent:hover{
+    display: block;
+}

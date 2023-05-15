@@ -23,16 +23,32 @@
           </div>
           <!-- Menu Items -->
           <div class="hidden lg:flex gap-6">
-            <a
-              href=""
-              class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
-              >Product</a
-            >
-            <a
-              href=""
-              class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
-              >Pricing</a
-            >
+            <div class="relative inline-block">
+              <div class="inline-flex w-full items-center dropdown">
+                <a
+                  href=""
+                  class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
+                  >Product</a
+                >
+              </div>
+            </div>
+            <div class="relative inline-block">
+              <div class="inline-flex w-full items-center dropdown">
+                <a
+                  href=""
+                  class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
+                  >Pricing</a
+                >
+              </div>
+              <!-- drop down option -->
+              <div class="bg-slate-200 absolute z-50  dropcontent">
+                <div class="flex flex-col gap-4">
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal</a>
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal</a>
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal </a>
+                </div>
+              </div>
+            </div>
             <div class="relative inline-block">
               <div class="inline-flex w-full items-center dropdown">
                 <a
@@ -40,26 +56,14 @@
                   class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
                   >Resources</a
                 >
-                <svg
-                  class="-mr-1 h-5 w-5 text-shippy-black"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
               </div>
               <!-- drop down option -->
               <div class="bg-slate-200 absolute z-50  dropcontent">
                 <div class="flex flex-col gap-4">
-                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Use Cases</a>
-                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Documentation</a>
-                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Testing </a>
-                  <a href="#" class="hover:bg-white block text-red-500 px-6 py-3">Flight</a>
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Use Cases</a>
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Documentation</a>
+                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Testing </a>
+                  <a href="#" class="hover:bg-white block text-shippy px-6 py-3">Flight</a>
                 </div>
               </div>
             </div>
@@ -98,12 +102,12 @@
           </div>
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md"
+            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two"
             >Sign Up</a
           >
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md"
+            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two"
             >Login</a
           >
         </div>
@@ -130,7 +134,7 @@
       <div class="md:hidden">
         <div
           id="menu"
-          class="absolute flex-col items-center hidden self-center py-10 mt-10 space-y-10 font-bold bg-shippy-blue-two sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          class="absolute flex-col items-center gap-4 hidden self-center py-10 mt-10 space-y-4 font-bold text-shippy-black sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
           <a href="#">Pricing</a>
           <a href="#">Product</a>
@@ -167,7 +171,7 @@
           />
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold rounded-md text-white"
+            class="px-4 py-2 bg-shippy-blue font-bold rounded-md text-white hover:bg-gradient-to-l from-shippy-blue to-shippy-blue-two"
             >Request Full Access</a
           >
         </div>
@@ -469,7 +473,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="sm:mt-10">
           <img src="assets/Onboarding 1.jpg" alt="" />
         </div>
       </div>

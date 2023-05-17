@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Quickshippy Landing Page</title>
   </head>
 
@@ -41,11 +41,23 @@
                 >
               </div>
               <!-- drop down option -->
-              <div class="bg-slate-200 absolute z-50  dropcontent">
+              <div class="bg-slate-200 absolute z-50 dropcontent">
                 <div class="flex flex-col gap-4">
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal</a>
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal</a>
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Personal </a>
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Personal</a
+                  >
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Personal</a
+                  >
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Personal
+                  </a>
                 </div>
               </div>
             </div>
@@ -58,12 +70,26 @@
                 >
               </div>
               <!-- drop down option -->
-              <div class="bg-slate-200 absolute z-50  dropcontent">
+              <div class="bg-slate-200 absolute z-50 dropcontent">
                 <div class="flex flex-col gap-4">
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Use Cases</a>
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Documentation</a>
-                  <a href="#" class="hover:bg-white block text-shippy-black px-6 py-3">Testing </a>
-                  <a href="#" class="hover:bg-white block text-shippy px-6 py-3">Flight</a>
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Use Cases</a
+                  >
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Documentation</a
+                  >
+                  <a
+                    href="#"
+                    class="hover:bg-white block text-shippy-black px-6 py-3"
+                    >Testing
+                  </a>
+                  <a href="#" class="hover:bg-white block text-shippy px-6 py-3"
+                    >Flight</a
+                  >
                 </div>
               </div>
             </div>
@@ -77,7 +103,7 @@
               type="search"
               name=""
               placeholder="Searh Here"
-              id=""
+              id="dataSearch"
               class="border-2 border-shippy-gray-three px-4 rounded-md"
             />
             <button type="submit" class="absolute right-0 top-0 mt-3 mr-2">
@@ -129,14 +155,12 @@
             </svg>
           </button>
         </div>
-        
       </div>
       <div class="md:hidden">
         <div
           id="menu"
           class="absolute flex-col items-center gap-4 hidden self-center py-10 mt-10 space-y-4 font-bold text-shippy-black sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
-          <a href="#">Pricing</a>
           <a href="#">Product</a>
           <a href="#">About Us</a>
           <a href="#">Careers</a>
@@ -262,57 +286,102 @@
       </div> -->
 
         <!-- Parent container -->
-        <div
-          class="flex flex-col md:flex-row gap-4 justify-between items-center"
-        >
-          <!-- card container -->
-          <div class="w-full md:w-2/4 lg:w-1/4">
-            <div class="text-shippy-black">
-              <img src="assets/download-solid.svg" alt="" width="20%" />
+        <div class="">
+          <div
+            class="flex flex-col md:flex-row gap-4 justify-between items-center"
+          >
+            <!-- card container -->
+            <div class="">
+              <div class="text-shippy-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"
+                  />
+                  <path
+                    d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"
+                  />
+                </svg>
+              </div>
+              <p class="font-bold text-3xl text-shippy-blue">Install Sdk</p>
+              <p class="text-shippy-gray-four">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
+                corporis in autem nihil.
+              </p>
             </div>
-            <p class="font-bold text-3xl text-shippy-blue">Install Sdk</p>
-            <p class="text-shippy-gray-four">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
-              corporis in autem nihil.
-            </p>
-          </div>
-          <div class="w-full md:w-2/4 lg:w-1/4">
-            <div>
-              <img src="assets/pen-nib-solid.svg" alt="" width="20%" />
+            <div class="">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M2.695 14.763l-1.262 3.154a.5.5 0 00.65.65l3.155-1.262a4 4 0 001.343-.885L17.5 5.5a2.121 2.121 0 00-3-3L3.58 13.42a4 4 0 00-.885 1.343z"
+                  />
+                </svg>
+              </div>
+              <p class="font-bold text-3xl text-shippy-blue">Design</p>
+              <p class="text-shippy-gray-four">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
+                corporis in autem nihil.
+              </p>
             </div>
-            <p class="font-bold text-3xl text-shippy-blue">Design</p>
-            <p class="text-shippy-gray-four">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
-              corporis in autem nihil.
-            </p>
-          </div>
-          <div class="w-full md:w-2/4 lg:w-1/4">
-            <div>
-              <img
-                src="assets/mobile-screen-button-solid.svg"
-                alt=""
-                width="20%"
-              />
+            <div class="">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M8 16.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 4a3 3 0 013-3h6a3 3 0 013 3v12a3 3 0 01-3 3H7a3 3 0 01-3-3V4zm4-1.5v.75c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75V2.5h1A1.5 1.5 0 0114.5 4v12a1.5 1.5 0 01-1.5 1.5H7A1.5 1.5 0 015.5 16V4A1.5 1.5 0 017 2.5h1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <p class="font-bold text-3xl text-shippy-blue">Preview Screen</p>
+              <p class="text-shippy-gray-four">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                voluptatum laboriosa emporibus neque quaerat magnam molestiae
+                corporis in autem nihil.
+              </p>
             </div>
-            <p class="font-bold text-3xl text-shippy-blue">Preview Screen</p>
-            <p class="text-shippy-gray-four">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
-              corporis in autem nihil.
-            </p>
-          </div>
-          <div class="w-full md:w-2/4 lg:w-1/4">
-            <div>
-              <img src="assets/upload-solid.svg" alt="" width="20%" />
+            <div class="">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    d="M9.25 13.25a.75.75 0 001.5 0V4.636l2.955 3.129a.75.75 0 001.09-1.03l-4.25-4.5a.75.75 0 00-1.09 0l-4.25 4.5a.75.75 0 101.09 1.03L9.25 4.636v8.614z"
+                  />
+                  <path
+                    d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"
+                  />
+                </svg>
+              </div>
+              <p class="font-bold text-3xl text-shippy-blue">Publish</p>
+              <p class="text-shippy-gray-four">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
+                corporis in autem nihil.
+              </p>
             </div>
-            <p class="font-bold text-3xl text-shippy-blue">Publish</p>
-            <p class="text-shippy-gray-four">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
-              corporis in autem nihil.
-            </p>
           </div>
         </div>
       </div>
@@ -325,7 +394,7 @@
             <img src="assets/Measure 1.svg" alt="" />
           </div>
 
-          <div class=" mt-10 lg:w-5/12">
+          <div class="mt-10 lg:w-5/12">
             <h2 class="font-bold text-2xl lg:text-3xl text-shippy-blue">
               Measure and optimize user engagement & conversions.
             </h2>
@@ -503,7 +572,7 @@
           />
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold rounded-md text-white"
+            class="px-4 py-2 bg-shippy-blue font-bold rounded-md text-white hover:bg-shippy-blue-two"
             >Request Full Access</a
           >
         </div>
@@ -511,7 +580,9 @@
     </div>
     <footer class="bg-shippy-gray-three text-black font-semibold">
       <nav class="w-10/12 mx-auto py-4">
-        <div class="flex flex-col items-center justify-between lg:flex-row gap-6">
+        <div
+          class="flex flex-col items-center justify-between lg:flex-row gap-6"
+        >
           <div>
             <img
               src="https://res.cloudinary.com/dp8g2jwak/image/upload/v1675610418/quickshippy/logo-white_xo3fck.svg"

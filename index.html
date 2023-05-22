@@ -16,17 +16,14 @@
         <!-- Logo enters here and 3 navLinks-->
         <div class="flex items-center gap-12">
           <div>
-            <img
-              src="https://res.cloudinary.com/dp8g2jwak/image/upload/v1675610418/quickshippy/logo-white_xo3fck.svg"
-              alt=""
-            />
+            <img src="https://quickshippy-assets.imgix.net/logo.png" alt="">
           </div>
           <!-- Menu Items -->
           <div class="hidden lg:flex gap-6">
             <div class="relative inline-block">
               <div class="inline-flex w-full items-center dropdown">
                 <a
-                  href=""
+                  href="#product"
                   class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
                   >Product</a
                 >
@@ -128,13 +125,13 @@
           </div>
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two"
-            >Sign Up</a
+            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two hover:text-shippy-black"
+            >Get Started</a
           >
           <a
             href=""
-            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two"
-            >Login</a
+            class="px-4 py-2 bg-shippy-blue font-bold text-white rounded-md hover:bg-shippy-blue-two hover:text-shippy-black"
+            >Sign in</a
           >
         </div>
 
@@ -162,8 +159,8 @@
           class="absolute flex-col items-center gap-4 hidden self-center py-10 mt-10 space-y-4 font-bold text-shippy-black sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
         >
           <a href="#">Product</a>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
+          <a href="#">Use Cases</a>
+          <a href="#">Request Access</a>
           <a href="#">Community</a>
         </div>
       </div>
@@ -171,16 +168,19 @@
 
     <!-- Hero Section starts here -->
     <div class="bg-shippy-gray-six py-[4em] lg:py-[6em]">
-      <div class="w-2/3 mx-auto">
+      <div class="w-10/12 lg:w-2/3 mx-auto">
         <h1
           class="font-bold text-3xl lg:text-6xl text-center leading-[150%] text-shippy-blue"
         >
           QuickShippy
         </h1>
         <p class="my-4 mx-auto text-center text-shippy-gray-four">
-          We are making it super easy for Product, Marketing & Growth teams to
-          engage and better understand app users without any input from the
-          engineering team.
+          Quickshippy is a no-code tool for businesses to deliver in-app content
+          to users. Our goal is to make it easy for businesses to ship screens,
+          flows and entire features without a single line of code. Also, to make
+          non-technical team members deliver notifications and collect feedback
+          from users seamlessly without the need for engineering input or mobile
+          store approval.
         </p>
 
         <div
@@ -236,7 +236,7 @@
     </div>
 
     <!-- Sub Hero Here -->
-    <div class="py-4em lg:py-[6em]">
+    <div class="py-4em lg:py-[6em]" id="product">
       <div class="w-10/12 lg:w-2/3 mx-auto">
         <p
           class="text-2xl text-center lg:text-3xl font-bold my-4 text-shippy-black"
@@ -261,37 +261,34 @@
       </div>
     </div>
 
-    <div class="bg-shippy-gray-sixpy-[4em] lg:py-[3em] my-8 lg:my-4">
+    <div class="bg-shippy-gray py-[4em] lg:py-[3em] my-8 lg:my-4">
       <div class="w-10/12 mx-auto">
         <!-- Header and subHeader texts -->
         <div class="lg:w-5/12">
           <h2 class="font-bold text-2xl lg:text-3xl text-shippy-blue">
-            Everything you need to improve User Experience in one place
+            Everything you need to know about
+            <span class="text-shippy-blue-two">QuickShippy</span>
           </h2>
           <p class="my-4 mx-auto text-left text-shippy-gray-four">
-            Our visual editor helps you seamlessly create and deploy screens &
-            features for onboarding, promotions, updates, user feedback, Content
-            can be designed in all forms via posts, banners, stories, carousel,
-            pop-ups, prompts, surveys and more.
+            Quickshippy is a no-code tool for businesses to deliver in-app
+            content to users.
+          </p>
+          <p class="my-4 mx-auto text-left text-shippy-gray-four">
+            Our goal is to make it easy for businesses to ship screens, flows
+            and entire features without a single line of code. Also, to make
+            non-technical team members deliver notifications and collect
+            feedback from users seamlessly without the need for engineering
+            input or mobile store approval.
           </p>
         </div>
 
-        <!-- Icon/image boxes will be here -->
-        <!-- <div class="flex flex-col lg:flex-row justify-between items-center w-full lg:w-10/12 mx-auto lg:gap-8">
-        <div class="flex flex-col justify-between items-start bg-shippy-blue">
-          <div>
-
-          </div>
-        </div>
-      </div> -->
-
         <!-- Parent container -->
-        <div class="">
+        <div class="w-full">
           <div
             class="flex flex-col md:flex-row gap-4 justify-between items-center"
           >
             <!-- card container -->
-            <div class="">
+            <div class="w-1/4 md:w-1/2">
               <div class="text-shippy-black">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -307,14 +304,14 @@
                   />
                 </svg>
               </div>
-              <p class="font-bold text-3xl text-shippy-blue">Install Sdk</p>
+              <p class="font-bold text-3xl text-shippy-blue">Install SDK</p>
               <p class="text-shippy-gray-four">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
                 voluptatum laboriosam? Temporibus neque quaerat magnam molestiae
                 corporis in autem nihil.
               </p>
             </div>
-            <div class="">
+            <div class="w-1/4 md:w-1/2">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -334,7 +331,7 @@
                 corporis in autem nihil.
               </p>
             </div>
-            <div class="">
+            <div class="w-1/4 md:w-1/2">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -359,7 +356,7 @@
                 corporis in autem nihil.
               </p>
             </div>
-            <div class="">
+            <div class="w-1/4 md:w-1/2">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -408,11 +405,11 @@
       </div>
     </div>
     <!-- Pricing -->
-    <div class="w-10/12 mx-auto py-[4em] lg:py-[3em] my-8 lg:my-4">
+    <!-- <div class="w-10/12 mx-auto py-[4em] lg:py-[3em] my-8 lg:my-4">
       <div
         class="flex flex-col justify-between items-center lg:flex-row gap-4 md:rounded w-full"
       >
-        <!-- Pricing card here - personal plan -->
+
         <div
           class="flex flex-col justify-between w-full lg:w-1/3 bg-slate-200 rounded-lg p-6 text-shippy-blue-two"
         >
@@ -435,7 +432,7 @@
             >
           </div>
         </div>
-        <!-- Pricing card here - personal plan -->
+      
         <div
           class="flex flex-col justify-between w-full lg:w-1/3 bg-slate-200 rounded-lg p-6 text-shippy-blue-two"
         >
@@ -458,7 +455,6 @@
             >
           </div>
         </div>
-        <!-- Pricing card here - personal plan -->
         <div
           class="flex flex-col justify-between w-full lg:w-1/3 bg-slate-200 rounded-lg p-6 text-shippy-blue-two"
         >
@@ -481,24 +477,8 @@
             >
           </div>
         </div>
-
-        <!-- Pricing card here - personal plan -->
-
-        <!-- <div class="flex flex-col justify-between bg-shippy-blue text-shippy-blue-two px-10">
-        <p>Team</p>
-        <p>$20<sub>per month</sub></p>
-        <p>Can create up to multiples project at once</p>
-        <p>Access to all studio</p>
-        <p></p>
       </div>
-      <div class="flex flex-col justify-between bg-shippy-blue text-shippy-blue-two text-3xl">
-        <p>Enterprise</p>
-        <p>$30<sub>per month</sub></p>
-        <p>Can create up to 3 projects at once</p>
-        <p>Access to Post and Banner</p>
-      </div> -->
-      </div>
-    </div>
+    </div> -->
     <!-- Phone Section -->
     <div class="bg-shippy-gray-six py-[4em] lg:py-[3em] my-8 lg:my-4">
       <div class="w-10/12 mx-auto">
@@ -548,7 +528,7 @@
       </div>
     </div>
     <div class="bg-shippy-gray-six py-[4em] lg:py-[6em]">
-      <div class="w-2/3 mx-auto">
+      <div class="w-10/12 lg:w-2/3 mx-auto">
         <h1
           class="font-bold text-2xl lg:text-3xl text-center leading-[150%] text-shippy-blue"
         >
@@ -578,17 +558,13 @@
         </div>
       </div>
     </div>
-    <footer class="bg-shippy-gray-three text-black font-semibold">
+    <footer class="bg-shippy-gray text-black font-semibold">
       <nav class="w-10/12 mx-auto py-4">
         <div
           class="flex flex-col items-center justify-between lg:flex-row gap-6"
         >
           <div>
-            <img
-              src="https://res.cloudinary.com/dp8g2jwak/image/upload/v1675610418/quickshippy/logo-white_xo3fck.svg"
-              alt=""
-              width="24px"
-            />
+         <img src="https://quickshippy-assets.imgix.net/logo.png" alt="">
           </div>
           <div
             class="flex flex-col justify-between items-center lg:flex-row gap-6"
@@ -596,7 +572,7 @@
             <a href="" class="hover:text-shippy-black">Product</a>
             <a href="">Documentation</a>
             <a href="">Pricing</a>
-            <a href="">Services</a>
+            <a href="">Supports</a>
           </div>
           <div class="flex gap-4">
             <img src="assets/medium.svg" alt="" width="24px" />

@@ -9,6 +9,11 @@ module.exports = {
       xl:'1440px'
           },
     extend: {
+      
+      maxWidth: {
+        '1/2': '50%',
+      },
+      
 
       colors: {
         "shippy-green": "#079B56",

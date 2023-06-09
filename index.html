@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <title>Quickshippy Landing Page</title>
+    <style>
+      .trail{
+        width: 350px;
+        height:300px
+      }
+    </style>
   </head>
 
   <body>
@@ -34,11 +40,11 @@
                 <a
                   href=""
                   class="hover:bg-shippy-blue px-4 py-2 rounded-md text-shippy-blue-two hover:text-white font-bold"
-                  >Pricing</a
+                  >Use Cases</a
                 >
               </div>
               <!-- drop down option -->
-              <div class="bg-slate-200 absolute z-50 dropcontent">
+              <div class="lg:hidden bg-slate-200 absolute z-50 dropcontent">
                 <div class="flex flex-col gap-4">
                   <a
                     href="#"
@@ -153,10 +159,10 @@
           </button>
         </div>
       </div>
-      <div class="md:hidden">
+      <div class="bg-red-600 md:hidden">
         <div
           id="menu"
-          class="absolute flex-col items-center gap-4 hidden self-center py-10 mt-10 space-y-4 font-bold text-shippy-black sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          class="absolute flex-col items-center gap-4 hidden self-center py-10 mt-10 space-y-4 font-bold sm:w-auto sm:self-center left-6 right-6"
         >
           <a href="#">Product</a>
           <a href="#">Use Cases</a>
@@ -168,11 +174,11 @@
     <div class="py-[4em] lg:py-[3em] my-8 lg:my-4">
       <div class="w-10/12 mx-auto">
           <div class="">
-            <h2 class="font-bold text-3xl lg:text-4xl text-shippy-blue">
+            <h2 class=" font-bold text-center text-3xl lg:text-6xl text-shippy-blue">
               The easiest way to create and deploy in-app content with no-code!
 
             </h2>
-            <p class="my-4 mx-auto text-xl text-center text-shippy-gray-four">
+            <p class="lg:w-2/3 my-4 mx-auto text-xl text-center text-shippy-gray-four">
               Engage users in different formats like posts, banners, modals, stories, surveys and more.
             </p>
             <div
@@ -211,8 +217,9 @@
         </p>
       </div>
       <div
-        class="w-2/3 mx-auto mt-4 border-2 border-shippy-blue"
+        class="w-2/3 mx-auto mt-4 border-2 border-shippy-blue rounded-md"
       >
+      <img src="assets/Full screen studio set-up.jpg" alt="" class="rounded-md" width="100%">
         <!-- <img src="assets/video_player_placeholder.gif" alt="" /> -->
       </div>
     </div>
@@ -317,9 +324,9 @@
       </div>
     </div> -->
     <!-- Phone Section -->
-    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4">
-      <div class="w-10/12 mx-auto">
-        <div class="flex flex-col items-center justify-around lg:flex-row">
+    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4 bg-shippy-gray-six">
+      <div class="w-10/12 mx-auto bg-white rounded-md shadow-md">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
           <div>
             <img
               src="assets/https __yepso.cdn.bubble.io_f1676372610733x332894809562224640_Seamlessly_20connect_20to_20your_20app_20via_20our_20robust_20SDK_20tools..jpg"
@@ -327,7 +334,7 @@
             />
           </div>
 
-          <div class="">
+          <div class="mt-4">
             <h2 class="font-bold text-3xl lg:text-4xl text-shippy-blue">
              Seamlessly connect quickshippy to your app via our robust SDK tools.
             </h2>
@@ -339,14 +346,16 @@
         </div>
       </div>
     </div>
-    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4">
-      <div class="w-10/12 mx-auto">
-        <div class="flex flex-col items-center justify-around lg:flex-row">
-          <div>
-           <img src="assets/Onboarding 1.jpg" alt="" width="80%">
-          </div>
+    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4 bg-shippy-gray-six">
+      <div class="w-10/12 mx-auto bg-white rounded-md shadow-md">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
+         
+         <div>
+          <img src="assets/editor.jpg" alt="">
+         </div>
+        
 
-          <div class="lg:w-2/3 mx-auto">
+          <div class="mt-4">
             <h2 class="font-bold text-3xl lg:text-4xl text-shippy-blue">
               Easy to use visual editor
             </h2>
@@ -359,14 +368,14 @@
         </div>
       </div>
     </div>
-    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4">
-      <div class="w-10/12 mx-auto">
-        <div class="flex flex-col items-center justify-around lg:flex-row">
+    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4 bg-shippy-gray-six">
+      <div class="w-10/12 mx-auto bg-white rounded-md shadow-md">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
           <div>
            <img src="assets/preview img.jpg" alt="">
           </div>
 
-          <div class="">
+          <div class="mt-4">
             <h2 class="font-bold text-3xl lg:text-4xl text-shippy-blue">
               Visualise what the content looks like in your app
             </h2>
@@ -379,21 +388,19 @@
         </div>
       </div>
     </div>
-    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4">
-      <div class="w-10/12 mx-auto">
-        <div class="flex flex-col items-center justify-around lg:flex-row">
-          <div>
-           <img src="assets/preview 2.svg" alt="" width="70%">
+    <div class="py-[4em] lg:py-[3em] my-8 lg:my-4 bg-shippy-gray-six">
+      <div class="w-10/12 mx-auto bg-white rounded-md shadow-md">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
+          <div class="mb-4">
+           <img src="assets/post 2.svg" alt="" width="70%" class="mb-6">
           </div>
 
-          <div class="lg:w-2/3 mx-auto">
+          <div class="lg:w-2/3 mx-auto mt-4">
             <h2 class="font-bold text-3xl lg:text-4xl text-shippy-blue">
               Share with your users with the click of a button
             </h2>
             <p class="my-4 mx-auto text-xl text-left text-shippy-gray-four">
               No engineering dependencies, no app store approval required.
-
-
             </p>
           </div>
         </div>
@@ -447,7 +454,7 @@
             <a href="" class="">Product</a>
             <a href="">Documentation</a>
             <a href="">Pricing</a>
-            <a href="">Supports</a>
+            <a href="">Support</a>
           </div>
           <div class="flex gap-4 text-shippy-blue">
             <img src="assets/medium.svg" alt="" width="24px" class="text-shippy-blue-two"/>
